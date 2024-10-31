@@ -20,7 +20,7 @@ body {
 }
 
 .screen {
-    width: 225px;
+    width: 100%;
     background-color: rgb(120, 171, 125);
     font-size: 42px;
     text-align: end;
@@ -65,4 +65,17 @@ button:active {
 
 #clear:hover {
     background-color: rgb(240, 174, 20);
+}
+
+@media (max-width: 600px) {
+    .calculator {
+        width: 90%;
+    }
+    button {
+        font-size: 1.2em;
+        width: 28%;
+    }
+    .screen {
+        font-size: 1.5em;
+    }
 }
